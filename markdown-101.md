@@ -186,3 +186,54 @@
         }
     ```
     
+    
+#### Line breaks, horizontal rules, and block quotes
+* To add a line break, just add a <br> tag in between the two lines
+        
+    _Markdown_  
+    
+        Here is line #1 <br>
+        Here is line #2
+                
+    _Result_
+    
+    Here is line #1 <br>
+    Here is line #2
+    
+* To add a horizontal rules, just add "---" or "===" in between the two lines
+        
+    _Markdown_  
+    
+        Here is line #1 
+        
+        ---
+        
+        Here is line #2
+        
+        ---
+                
+    _Result_
+    
+    Here is line #1     
+    
+    ---
+    
+    Here is line #2
+    
+    ===
+
+* To add a block quote, just add "> " in front of quote
+        
+    _Markdown_  
+    
+    `> Don't go around saying the world owes you a living. The world owes you nothing. It was here first`
+                
+    _Result_
+    
+    > Don't go around saying the world owes you a living. The world owes you nothing. It was here first.
+    >
+    > -**Mark Twain**
+  
+    
+    
+    
