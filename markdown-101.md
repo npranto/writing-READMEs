@@ -168,7 +168,7 @@
         
     _Markdown_  
     
-        ```js
+        ```js (NOTE: "js" is optional)
             let hope = true;
             let dream = 0;
             while (hope) {
@@ -226,6 +226,30 @@
     >
     > -**Mark Twain**
   
+  
+  
+#### Diff block
+* To add a diff block, use "diff" after the three ticks(`)
+        
+    _Markdown_  
+    
+        ```diff
+            function logName(name) {
+                - let name = name.toLowerCase();
+                + let name = name.toUpperCase();
+                return name;
+            }            
+        ```
+                
+    _Result_
+    
+    ```diff
+        function logName(name) {
+            - let name = name.toLowerCase();
+            + let name = name.toUpperCase();
+            return name;
+        }            
+    ```
     
     
     
