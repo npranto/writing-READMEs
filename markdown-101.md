@@ -71,3 +71,16 @@
     What a ~~wonderful~~ day
             
     Welcome to ~~Markdown Syntax~~
+    
+    
+#### Image 
+* To insert an image, use ![ALTERNATIVE_TEXT](IMAGE_PATH "TEXT_TO_SHOW_ON_HOVER")
+        
+    _Markdown_  
+    
+        ![Bird](https://cdn.pixabay.com/photo/2017/02/07/16/47/kingfisher-2046453_960_720.jpg "Bird")
+                
+    _Result_
+    
+    ![Bird](https://cdn.pixabay.com/photo/2017/02/07/16/47/kingfisher-2046453_960_720.jpg "Bird")
+  
