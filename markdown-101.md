@@ -87,8 +87,10 @@
 * To link an image with a variable:
         
     _Markdown_  
+    
         ![Bay Shore][path]
-                [path]: https://unsplash.it/400/400
+        
+        [path]: https://unsplash.it/400/400
                 
     _Result_
     
