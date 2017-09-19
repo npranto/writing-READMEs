@@ -101,7 +101,8 @@
 * To link text to an image:
         
     _Markdown_  
-        `[Show Image](https://unsplash.it/400/400)`
+    
+        [Show Image](https://unsplash.it/400/400)
                 
     _Result_
    
@@ -110,7 +111,8 @@
 * To link an image to an bigger version of that image:
         
     _Markdown_  
-        `[![](https://unsplash.it/100/100?image=1000)](https://unsplash.it/500/500?image=1000)`
+    
+        [![](https://unsplash.it/100/100?image=1000)](https://unsplash.it/500/500?image=1000)
                 
     _Result_
    
