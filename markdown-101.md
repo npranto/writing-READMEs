@@ -250,6 +250,41 @@
         return name;
     }            
     ```
+
+
+#### Table
+* To add a small table, use the following format
+
+    _Markdown_
+
+        Players|             Age|
+        |:-----|:---------------|
+        Russell Westbrook|   28|
+        James Harden|        27|
+        Isaiah Thomas|       28|
+        Anthony Davis|       24|
+        DeMar DeRozan|       27|
+
+    _Result_
+
+    Players|             Age|
+    |:-----|:---------------|
+    Russell Westbrook|   28|
+    James Harden|        27|
+    Isaiah Thomas|       28|
+    Anthony Davis|       24|
+    DeMar DeRozan|       27|
+
+
+
+
+
+
+
+
+
+
+
     
     
     
