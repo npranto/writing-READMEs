@@ -244,11 +244,11 @@
     _Result_
     
     ```diff
-        function logName(name) {
-            - let name = name.toLowerCase();
-            + let name = name.toUpperCase();
-            return name;
-        }            
+    function logName(name) {
+    -   let name = name.toLowerCase();
+    +   let name = name.toUpperCase();
+        return name;
+    }            
     ```
     
     
