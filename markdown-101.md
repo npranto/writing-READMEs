@@ -74,7 +74,7 @@
     
     
 #### Image 
-* To insert an image, use ![ALTERNATIVE_TEXT](IMAGE_PATH "TEXT_TO_SHOW_ON_HOVER")
+* To insert an image, use `![ALTERNATIVE_TEXT](IMAGE_PATH "TEXT_TO_SHOW_ON_HOVER")`
         
     _Markdown_  
     
@@ -87,22 +87,24 @@
 * To link an image with a variable:
         
     _Markdown_  
-        [path]: https://unsplash.it/400/400
         ![Bay Shore][path]
+        
+        [path]: https://unsplash.it/400/400
                 
     _Result_
     
-    [path]: https://unsplash.it/400/400
     ![Bay Shore][path]
+    
+    [path]: https://unsplash.it/400/400
     
 * To link text to an image:
         
     _Markdown_  
-        ![Show Image](https://unsplash.it/400/400)
+        `[Show Image](https://unsplash.it/400/400)`
                 
     _Result_
    
-    ![Show Image](https://unsplash.it/400/400)
+    [Show Image](https://unsplash.it/400/400)
   
 * To link an image to an bigger version of that image:
         
