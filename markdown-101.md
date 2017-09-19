@@ -78,9 +78,38 @@
         
     _Markdown_  
     
-        ![Bird](https://cdn.pixabay.com/photo/2017/02/07/16/47/kingfisher-2046453_960_720.jpg "Bird")
+        ![Railroad](https://unsplash.it/500/500 "Railroad")
                 
     _Result_
     
-    ![Bird](https://cdn.pixabay.com/photo/2017/02/07/16/47/kingfisher-2046453_960_720.jpg "Bird")
+    ![Railroad](https://unsplash.it/500/500 "Railroad")
+    
+* To link an image with a variable:
+        
+    _Markdown_  
+        [path]: https://unsplash.it/400/400
+        ![Bay Shore][path]
+                
+    _Result_
+    
+    [path]: https://unsplash.it/400/400
+    ![Bay Shore][path]
+    
+* To link text to an image:
+        
+    _Markdown_  
+        ![Show Image](https://unsplash.it/400/400)
+                
+    _Result_
+   
+    ![Show Image](https://unsplash.it/400/400)
   
+* To link an image to an bigger version of that image:
+        
+    _Markdown_  
+        [![](https://unsplash.it/100/100?image=1000)](https://unsplash.it/500/500?image=1000)
+                
+    _Result_
+   
+    [![](https://unsplash.it/100/100?image=1000)](https://unsplash.it/500/500?image=1000)
+              
