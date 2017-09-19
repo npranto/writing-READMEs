@@ -276,6 +276,21 @@
     DeMar DeRozan|       27|
 
 
+#### Adding Checkboxes
+* To add checkboxes, use the following format
+
+    _Markdown_
+
+        * [ ] Get milk
+        * [x] Get mango
+        * [ ] Get coffee
+
+    _Result_
+
+    * [ ] Get milk
+    * [x] Get mango
+    * [ ] Get coffee
+
 
 
 
