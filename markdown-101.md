@@ -101,7 +101,8 @@
 * To link text to an image:
         
     _Markdown_  
-        `[Show Image](https://unsplash.it/400/400)`
+    
+        [Show Image](https://unsplash.it/400/400)
                 
     _Result_
    
@@ -110,9 +111,78 @@
 * To link an image to an bigger version of that image:
         
     _Markdown_  
-        `[![](https://unsplash.it/100/100?image=1000)](https://unsplash.it/500/500?image=1000)`
+    
+        [![](https://unsplash.it/100/100?image=1000)](https://unsplash.it/500/500?image=1000)
                 
     _Result_
    
     [![](https://unsplash.it/100/100?image=1000)](https://unsplash.it/500/500?image=1000)
               
+* NOTE:
+    * We can also use HTML inside a markdown file wherever markdown falls short (i.e., `[<img src="https://unsplash.it/500/500?image=1000">](https://unsplash.it/500/500?image=1000)`)
+    * You can also use CSS inside a markdown file with a style tag (i.e., `<style> img { width: 200px} </style>`)
+    
+    
+#### Ordered and Unordered List 
+* To create an unordered list, add a "+", "*", or "-" in front of each item on the list
+        
+    _Markdown_  
+    
+        + apple
+        + banana 
+        + orange
+            * yellow orange
+        + peach
+        + mango
+                
+    _Result_
+    
+    + apple
+    + banana 
+    + orange
+        * yellow orange
+    + peach
+    + mango
+    
+* To create an ordered list, add "1. " in front of each item on the list
+        
+    _Markdown_  
+    
+        1. apple
+        1. banana 
+        1. orange
+        1. peach
+        1. mango
+                
+    _Result_
+    
+    1. apple
+    1. banana 
+    1. orange
+    1. peach
+    1. mango
+    
+
+#### Code block 
+* To add a code block, surround code with triple ticks(`)
+        
+    _Markdown_  
+    
+        ```js
+            let hope = true;
+            let dream = 0;
+            while (hope) {
+                dream++;
+            }
+        ```
+                
+    _Result_
+    
+    ```js
+        var hope = true;
+        var dream = 0;
+        while (hope) {
+            dream++;
+        }
+    ```
+    
