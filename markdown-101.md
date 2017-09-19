@@ -203,25 +203,17 @@
 * To add a horizontal rules, just add "---" or "===" in between the two lines
         
     _Markdown_  
-    
-        Here is line #1 
-        
-        ---
-        
-        Here is line #2
-        
-        ---
-                
+ 
+            Here is line #1     
+
+            ---
+
     _Result_
     
     Here is line #1     
     
     ---
-    
-    Here is line #2
-    
-    ===
-
+   
 * To add a block quote, just add "> " in front of quote
         
     _Markdown_  
