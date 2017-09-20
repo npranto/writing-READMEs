@@ -3,16 +3,21 @@
 A short, yet somewhat comprehensive guide to writing Markdown markup language to write better READMEs or documentations for projects.
 
 ## Table of Contents
-  * [Writing paragraphs](https://github.com/npranto/writing-READMEs/blob/master/markdown-101.md#writing-paragraphs)
-  * [Bold and italic](https://github.com/npranto/writing-READMEs/blob/master/markdown-101.md#bold-and-italic)
-  * [Strikethrough](https://github.com/npranto/writing-READMEs/blob/master/markdown-101.md#strikethrough)
-  * [Image](https://github.com/npranto/writing-READMEs/blob/master/markdown-101.md#image)
-  * [Ordered and unordered list](https://github.com/npranto/writing-READMEs/blob/master/markdown-101.md#ordered-and-unordered-list)
-  * [Code block](https://github.com/npranto/writing-READMEs/blob/master/markdown-101.md#code-block) 
-  * [Line breaks, horizontal rules, and block quotes](https://github.com/npranto/writing-READMEs/blob/master/markdown-101.md#line-breaks-horizontal-rules-and-block-quotes) 
-  * [Diff block](https://github.com/npranto/writing-READMEs/blob/master/markdown-101.md#diff-block) 
-  * [Table](https://github.com/npranto/writing-READMEs/blob/master/markdown-101.md#table) 
-  * [Adding checkboxes](https://github.com/npranto/writing-READMEs/blob/master/markdown-101.md#adding-checkboxes)  
+* [Documentation](https://github.com/npranto/writing-READMEs/blob/master/README.md#documentation)
+* [When and Why Do You Use Documentations?](https://github.com/npranto/writing-READMEs/blob/master/README.md#when-and-why-do-you-use-documentations)
+* [How To Create a Documentation?](https://github.com/npranto/writing-READMEs/blob/master/README.md#how-to-create-a-documentation)
+* [Anatomy of README](https://github.com/npranto/writing-READMEs/blob/master/README.md#anatomy-of-readme)
+* [Markdown 101](https://github.com/npranto/writing-READMEs/blob/master/markdown-101.md)
+    * [Writing paragraphs](https://github.com/npranto/writing-READMEs/blob/master/markdown-101.md#writing-paragraphs)
+    * [Bold and italic](https://github.com/npranto/writing-READMEs/blob/master/markdown-101.md#bold-and-italic)
+    * [Strikethrough](https://github.com/npranto/writing-READMEs/blob/master/markdown-101.md#strikethrough)
+    * [Image](https://github.com/npranto/writing-READMEs/blob/master/markdown-101.md#image)
+    * [Ordered and unordered list](https://github.com/npranto/writing-READMEs/blob/master/markdown-101.md#ordered-and-unordered-list)
+    * [Code block](https://github.com/npranto/writing-READMEs/blob/master/markdown-101.md#code-block) 
+    * [Line breaks, horizontal rules, and block quotes](https://github.com/npranto/writing-READMEs/blob/master/markdown-101.md#line-breaks-horizontal-rules-and-block-quotes) 
+    * [Diff block](https://github.com/npranto/writing-READMEs/blob/master/markdown-101.md#diff-block) 
+    * [Table](https://github.com/npranto/writing-READMEs/blob/master/markdown-101.md#table) 
+    * [Adding checkboxes](https://github.com/npranto/writing-READMEs/blob/master/markdown-101.md#adding-checkboxes)  
 
 ## Documentation  
 > It helps developers and users make sense of code written by other developers
@@ -29,12 +34,9 @@ A short, yet somewhat comprehensive guide to writing Markdown markup language to
 ## Anatomy of README
 > A basic README file should contain enough information for other people to get up and running with a codebase
 
-Common Sections of README:
-
-===
-
-* Title of your project and description and maybe a logo if you have one
-* Installation guide and prerequisites to understand the project (what languages, tools, libraries, or frameworks should one know beforehand to get started... what exact steps should one take to get started contributing to the codebase...)
+**Common Sections of README**:
+* _Title_ of your project and _description_ and maybe a _**logo**_ if you have one
+* _Installation guide_ and _prerequisites_ to understand the project (what languages, tools, libraries, or frameworks should one know beforehand to get started... what exact steps should one take to get started contributing to the codebase...)
 * Open Source Licensing:
     * including license and copyrights for a codebase should always be considered despite size of project (although it is completely optional, it is a good practice for building real professional projects)
     * if a developer wants other developers to contribute to his/her codebase, it is super important to use license
