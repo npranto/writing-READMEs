@@ -13,6 +13,42 @@ A short, yet somewhat comprehensive guide to writing Markdown markup language to
   * [Diff block](https://github.com/npranto/writing-READMEs/blob/master/markdown-101.md#diff-block) 
   * [Table](https://github.com/npranto/writing-READMEs/blob/master/markdown-101.md#table) 
   * [Adding checkboxes](https://github.com/npranto/writing-READMEs/blob/master/markdown-101.md#adding-checkboxes)  
-  
+
+## Documentation  
+> It helps developers and users make sense of code written by other developers
+
+## When and Why Do You Use Documentations?
+* When using third party libraries and tools inside a project
+* Documentations are essential and perhaps necessary in understanding other's code, features, and solutions.
+* Most importantly, documentations provide related examples or tutorials to quickly get started with library or tool
+* Documentations serve a great insight into a developer's thought process behind the codebase
+
+## How To Create a Documentation?
+> Create a README.md file within every project to fully document code structure and functionalities of all work for future self, co-workers and users
+
+## Anatomy of README
+> A basic README file should contain enough information for other people to get up and running with a codebase
+
+Common Sections of README:
+
+===
+
+* Title of your project and description and maybe a logo if you have one
+* Installation guide and prerequisites to understand the project (what languages, tools, libraries, or frameworks should one know beforehand to get started... what exact steps should one take to get started contributing to the codebase...)
+* Open Source Licensing:
+    * including license and copyrights for a codebase should always be considered despite size of project (although it is completely optional, it is a good practice for building real professional projects)
+    * if a developer wants other developers to contribute to his/her codebase, it is super important to use license
+    * [Common License Types](https://choosealicense.com/)
+        * [MIT License](https://choosealicense.com/licenses/mit/)
+        * [Apache 2.0](https://choosealicense.com/licenses/apache-2.0/)
+        * [GNU GPLv3](https://choosealicense.com/licenses/gpl-3.0/)
+* Contributions:
+    > if one wants other developers to contribute to his/her project, provide a step by step guideline for property contributing to the codebase
+
+* Code Status:
+    > if one is using testing in his/her project, he/she can also use "shields" in the README. It lets others know your code status and whether or not build is passing    
+    [![Build Status](http://img.shields.io/travis/doge/wow.svg)](https://travis-ci.org/doge/wow)
+
+    
 ## Authors
 * **Nazmuz Shakib Pranto** [[GitHub](https://github.com/npranto) | [LinkedIn](https://www.linkedin.com/in/npranto/)]
