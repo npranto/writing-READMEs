@@ -46,8 +46,8 @@ Common Sections of README:
     > if one wants other developers to contribute to his/her project, provide a step by step guideline for property contributing to the codebase
 
 * Code Status:
-    > if one is using testing in his/her project, he/she can also use "shields" in the README. It lets others know your code status and whether or not build is passing    
-    [![Build Status](http://img.shields.io/travis/doge/wow.svg)](https://travis-ci.org/doge/wow)
+    > if one is using testing in his/her project, he/she can also use "shields" in the README. It lets others know your code status and whether or not build is passing   
+    ![Build Status](https://travis-ci.org/travis-ci/travis-web.svg?branch=master)
 
     
 ## Authors
